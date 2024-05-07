@@ -17,18 +17,21 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik:ital@0;1&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="h-screen w-screen bg-white">
+    <div class="w-screen h-screen bg-white">
       <!--เริ่มเขียนใต้นี้ nat -->
       <!-- header: whole section wrapper -->
-      <div
-        class="max-md:flex max-md:flex-col max-md:align-top max-md:w-full"
-      >
+      <div class="max-md:flex max-md:flex-col max-md:align-top max-md:w-full">
         <!-- nav bar wrapper-->
         <div
-          class="relative flex gap-10 items-center max-md:flex max-md:justify-between"
+          class="relative flex items-center gap-10 max-md:flex max-md:justify-between"
         >
           <!-- nav bar: logo -->
 
@@ -39,23 +42,31 @@
           />
           <!-- nav bar: menu list -->
           <div>
-            <nav class="rubik flex ml-30 max-md:invisible">
+            <nav class="flex rubik ml-30 max-md:invisible">
               <ul class="flex items-center">
                 <div class="flex gap-10">
-                  <li class="hover:border-yellow-400 hover:border-b-2 active:border-b-0">Home</li>
-                  <li class="hover:border-yellow-400 hover:border-b-2 active:border-b-0">
+                  <li
+                    class="hover:border-yellow-400 hover:border-b-2 active:border-b-0"
+                  >
+                    Home
+                  </li>
+                  <li
+                    class="hover:border-yellow-400 hover:border-b-2 active:border-b-0"
+                  >
                     Admission
                   </li>
-                  <li class="hover:border-yellow-400 hover:border-b-2 active:border-b-0">
+                  <li
+                    class="hover:border-yellow-400 hover:border-b-2 active:border-b-0"
+                  >
                     Academic
                   </li>
                 </div>
                 <!-- nav bar: [desktop] contact now button -->
                 <button
-                  class="absolute right-10 text-white bg-black rounded-2xl p-4 hover:bg-gray-700 active:bg-gray-500 focus:ring-2 focus:ring-gray-500"
+                  class="absolute p-4 text-white bg-black right-10 rounded-2xl hover:bg-gray-700 active:bg-gray-500 focus:ring-2 focus:ring-gray-500"
                 >
                   Contact Now
-              </button>
+                </button>
                 <!-- nav bar: [mobile] menu button (visible/invisible) -->
                 <img
                   class="absolute w-10 right-4 max-md:visible md:max-2xl:invisible 2xl:invisible max-sm:w-6"
@@ -71,20 +82,24 @@
 
         <!-- hero section wrapper: start your future education: content & pictures -->
         <div
-          class="flex justify-evenly items-center mt-18 gap-x-14 max-md:flex max-md:flex-col-reverse max-md:items-center max-md:w-fit"
+          class="flex items-center justify-evenly mt-18 gap-x-14 max-md:flex max-md:flex-col-reverse max-md:items-center max-md:w-fit"
         >
           <!-- hero section: content -->
           <section
-            class="card mt-32 w-96 max-md:mx-2 max-md:mt-1 max-md:w-72 max-md:h-96 max-md:flex max-md:flex-col max-md:items-start"
+            class="mt-32 card w-96 max-md:mx-2 max-md:mt-1 max-md:w-72 max-md:h-96 max-md:flex max-md:flex-col max-md:items-start"
           >
-            <p class="poppins text-6xl font-bold my-6 max-md:w-48 max-md:text-3xl">Start Your Future Education</p>
-            <p class="rubik text-sm font-light">
+            <p
+              class="my-6 text-6xl font-bold poppins max-md:w-48 max-md:text-3xl"
+            >
+              Start Your Future Education
+            </p>
+            <p class="text-sm font-light rubik">
               Credibly redefine distinctive total linkage vis-a-vis multifunc
               data. Phosfluorescently impact goal-oriented strategic
             </p>
             <!-- hero section: content button -->
             <button
-              class="rubik mt-8 text-white bg-yellow-500 rounded-2xl p-4 shadow-lg shadow-yellow-500/50 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-2 focus:ring-yellow-400"
+              class="p-4 mt-8 text-white bg-yellow-500 shadow-lg rubik rounded-2xl shadow-yellow-500/50 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-2 focus:ring-yellow-400"
             >
               Discover More
             </button>
@@ -92,132 +107,170 @@
 
           <!-- hero section: pictures -->
           <!-- hero section: whole pictures wrapper -->
-          
-            <div class="relative mt-10 max-md:mx-4 max-md:mt-20">
-          <!-- hero section: pictures center (sunrise2.svg) |>|>|> -->
-          
-            
-              <img
-                class="relative"
-                src="./images/section1/sunrise2.svg"
-                alt="sunrise image"
-      
-              />
-              <!-- hero section: pictures top left -->
-              <img
-                class="absolute bottom-2/4 right-2/3"
-                src="./images/section1/congratulation2.svg"
-                alt="new email image"
-                width="40%"
-                height="auto"
-              />
-              <!-- hero section: pictures top right -->
-              <img
-                class="absolute bottom-2/4 left-2/3"
-                src="./images/section1/happy-students-number2.svg"
-                alt="student testimonial image"
-                width="40%"
-                height="auto"
-              />
+
+          <div class="relative mt-10 max-md:mx-4 max-md:mt-20">
+            <!-- hero section: pictures center (sunrise2.svg) |>|>|> -->
+
+            <img
+              class="relative"
+              src="./images/section1/sunrise2.svg"
+              alt="sunrise image"
+            />
+            <!-- hero section: pictures top left -->
+            <img
+              class="absolute bottom-2/4 right-2/3"
+              src="./images/section1/congratulation2.svg"
+              alt="new email image"
+              width="40%"
+              height="auto"
+            />
+            <!-- hero section: pictures top right -->
+            <img
+              class="absolute bottom-2/4 left-2/3"
+              src="./images/section1/happy-students-number2.svg"
+              alt="student testimonial image"
+              width="40%"
+              height="auto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--เริ่มเขียนใต้นี้ view -->
+
+    <!--เริ่มเขียนใต้นี้ benz -->
+
+    <!--เริ่มเขียนใต้นี้ vick -->
+    <div>
+      <div
+        class="w-screen introduction md:flex md:flex-row md:justify-around md:items-center"
+      >
+        <div class="m-3 header">
+          <div class="mb-4 text-2xl poppins md:mb-0">
+            Introduce with Our
+            <span class="block whitespace-nowrap">Famous Teacher</span>
+          </div>
+        </div>
+        <div class="md:p-0 md:m-3">
+          <div
+            class="bg-[#FFA502] m-3 text-white w-40 rubik p-3 rounded-xl text-[xs] text-center"
+          >
+            View All Teacher
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-center mt-14 md:justify-evenly">
+        <div>
+          <div
+            class="circle1 w-60 h-60 bg-[#D9D1FB] rounded-full mb-4 md:mb-0"
+          ></div>
+          <div class="flex flex-col items-center m-6">
+            <p class="poppins">Shaapir Prio</p>
+            <p class="rubik text-xs text-[#6F6F76] leading-5">
+              Assistant Director
+            </p>
+            <div class="text-xs leading-9 icon">
+              <i class="mr-2 fa-brands fa-google"></i>
+              <i class="mr-2 fa-brands fa-twitter"></i>
+              <i class="mr-2 fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="circle2 w-60 h-60 bg-[#9BF5CB] rounded-full mb-4 md:mb-0"
+          ></div>
+          <div class="flex flex-col items-center m-6">
+            <p class="poppins">Sellina</p>
+            <p class="rubik text-xs text-[#6F6F76] leading-5">Director</p>
+            <div class="text-xs leading-9 icon">
+              <i class="mr-2 fa-brands fa-google"></i>
+              <i class="mr-2 fa-brands fa-twitter"></i>
+              <i class="mr-2 fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="circle3 w-60 h-60 bg-[#FEC6A2] rounded-full mb-4 md:mb-0"
+          ></div>
+          <div class="flex flex-col items-center m-6">
+            <p class="poppins">John Smith</p>
+            <p class="rubik text-xs text-[#6F6F76] leading-5">
+              Assistant Director
+            </p>
+            <div class="text-xs leading-9 icon">
+              <i class="mr-2 fa-brands fa-google"></i>
+              <i class="mr-2 fa-brands fa-twitter"></i>
+              <i class="mr-2 fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
             </div>
           </div>
         </div>
       </div>
-      <!--เริ่มเขียนใต้นี้ view -->
-
-      <!--เริ่มเขียนใต้นี้ benz -->
-
-      <!--เริ่มเขียนใต้นี้ vick -->
-
-      <!--เริ่มเขียนใต้นี้ ben -->
-      <footer>
-        <div class="p-12 relative flex bg-[#2A2A31]">
-          <div class="flex flex-row my-8 max-md:flex-col">
-            <h1 class="text-2xl text-white poppins">
-              Create Free Account <br />& Get Register<br />
-            </h1>
-            <button
-              class="rubik h-10 w-28 ml-10 mt-5 bg-[#FFA502] hover:bg-[#FFD699] text-white border border-white rounded-lg"
+      <div
+        class="flex-row-reverse mt-10 md:flex md:justify-between md:w-screen"
+      >
+        <div class="m-5 mt-14 md:z-20 md:w-2/5">
+          <p class="text-xl poppins">
+            5000 Reviews form
+            <span class="block whitespace-nowrap">
+              Our Successful Students!</span
             >
-              Register Now
-            </button>
+          </p>
+          <p class="rubik text-[#6F6F76] mt-6">
+            Teractively recaptiualize intermandated e-commerce after sticky
+            applications. Dynamically reintermediate viral testing procedures
+            through technically sound.
+          </p>
+        </div>
+        <div class="relative flex justify-center md:w-3/4">
+          <div
+            class="z-20 box1 bg-[#FFA502] w-80 h-max m-5 rounded-2xl md:w-[60%] text-white md:p-4 md:absolute md:left-60 shadow-lg shadow-[#FFA502]"
+          >
+            <div
+              class="flex items-center justify-around m-6 mb-2 md:justify-start md:gap-4 md:ml-10"
+            >
+              <div class="bg-[#C4C4C4] w-20 h-20 rounded-full"></div>
+              <div>
+                <p class="text-lg poppins">Jaquon Hart</p>
+                <p class="rubik">Civil Engineer</p>
+              </div>
+            </div>
+            <div class="ml-10 md:p-4 md:absolute md:left-2/4 md:bottom-2/4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="m-5">
+              “With Edu, we’re able to easily track our performance in full
+              detail. It’s become an essential tool for us to grow and engage
+              with our audience.”
+            </div>
           </div>
-          <div class="max-md:hidden absolute top-32 left-64">
-            <img src="./image/section5/3.png" width="10%" />
-          </div>
-          <div class="md:hidden absolute top-32 left-56">
-            <img src="./image/section5/4.png" width="10%" />
+          <div
+            class="absolute z-10 m-5 box2 w-80 h-max rounded-2xl md:w-[60%] top-28"
+          >
+            <div class="smcircle bg-[#C4C4C4] w-20 h-20 rounded-full m-3"></div>
+            <div class="text-[#6F6F76] m-5">
+              “With Edu, we’re able to easily track our performance in full
+              detail. It’s become an essential tool for us to grow and engage
+              with our audience.”
+            </div>
+            <div
+              class="absolute flex items-start justify-end gap-3 text-3xl md:text-4xl left-60 bottom-3 md:left-[550px] md:top-36"
+            >
+              <i class="fa-solid fa-circle-arrow-left"></i>
+              <i class="fa-solid fa-circle-arrow-right"></i>
+            </div>
           </div>
         </div>
-
-        <div
-          class="p-12 max-md:flex-col flex rubik gap-3 pt-[50px] pb-[10px] bg-[#111116] text-gray-400 border-b border-gray-500"
-        >
-          <div class="md:hidden">
-            <img
-              src="./image/section5/1.png"
-              alt="footer_logo"
-              width="65"
-              height="65"
-            />
-            <p>
-              Professionally scale cross functional human capital and extensive
-              technology.
-            </p>
-          </div>
-          <div class="max-md:hidden w-1/5">
-            <img
-              src="./image/section5/1.png"
-              alt="footer_logo"
-              width="65"
-              height="65"
-            />
-            <p>
-              Professionally scale cross functional human capital and extensive
-              technology.
-            </p>
-            <img src="./image/section5/2.png" width="50%" />
-          </div>
-          <div class="w-1/5">
-            <strong class="text-white">Services</strong>
-            <p>Documentation</p>
-            <p>Design</p>
-            <p>Themes</p>
-            <p>Illustrations</p>
-          </div>
-          <div class="w-1/5">
-            <strong class="text-white">Company</strong>
-            <p>About</p>
-            <p>terms</p>
-            <p>Privacy Policy</p>
-            <p>Carees</p>
-          </div>
-          <div class="w-1/5">
-            <strong class="text-white">Job-Info</strong>
-            <p>Select</p>
-            <p>Services</p>
-            <p>payment</p>
-          </div>
-          <div class="max-md:hidden w-1/5">
-            <strong class="text-white">Contact</strong>
-            <p><span class="text-white">Call:</span> 971 5546 963</p>
-            <p><span class="text-white">Email:</span> example@gmail.com</p>
-            <p><span class="text-white">Address:</span> Dhaka, Bangladesh</p>
-          </div>
-          <div class="md:hidden">
-            <strong class="text-white">Contact</strong>
-            <p><span class="text-white">Call:</span> 971 5546 963</p>
-            <p><span class="text-white">Email:</span> example@gmail.com</p>
-            <p><span class="text-white">Address:</span> Dhaka, Bangladesh</p>
-          </div>
-          <img class="md:hidden" src="./image/section5/2.png" width="50%" />
-        </div>
-        <div
-          class="bg-[#111116] text-gray-400 rubik text-center pt-[20px] pb-[20px]"
-        >
-          <p class="text-sm">Copyright©chakri.All right reserved</p>
-        </div>
-      </footer>
+      </div>
     </div>
+    <!--เริ่มเขียนใต้นี้ ben -->
   </body>
 </html>
