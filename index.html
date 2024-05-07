@@ -22,7 +22,107 @@
   <body>
     <div class="h-screen w-screen bg-white">
       <!--เริ่มเขียนใต้นี้ nat -->
+      <!-- header: whole section wrapper -->
+      <div
+        class="max-md:flex max-md:flex-col max-md:align-top max-md:w-full"
+      >
+        <!-- nav bar wrapper-->
+        <div
+          class="relative flex gap-10 items-center max-md:flex max-md:justify-between"
+        >
+          <!-- nav bar: logo -->
 
+          <img
+            class="logo-margin w-36 max-md:w-24"
+            src="./images/section1/logo3.svg"
+            alt="website logo"
+          />
+          <!-- nav bar: menu list -->
+          <div>
+            <nav class="rubik flex ml-30 max-md:invisible">
+              <ul class="flex items-center">
+                <div class="flex gap-10">
+                  <li class="hover:border-yellow-400 hover:border-b-2 active:border-b-0">Home</li>
+                  <li class="hover:border-yellow-400 hover:border-b-2 active:border-b-0">
+                    Admission
+                  </li>
+                  <li class="hover:border-yellow-400 hover:border-b-2 active:border-b-0">
+                    Academic
+                  </li>
+                </div>
+                <!-- nav bar: [desktop] contact now button -->
+                <button
+                  class="absolute right-10 text-white bg-black rounded-2xl p-4 hover:bg-gray-700 active:bg-gray-500 focus:ring-2 focus:ring-gray-500"
+                >
+                  Contact Now
+              </button>
+                <!-- nav bar: [mobile] menu button (visible/invisible) -->
+                <img
+                  class="absolute w-10 right-4 max-md:visible md:max-2xl:invisible 2xl:invisible max-sm:w-6"
+                  src="./images/section1/category2.svg"
+                  alt="mobile menu button"
+                  width="25px"
+                  height="25px"
+                />
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <!-- hero section wrapper: start your future education: content & pictures -->
+        <div
+          class="flex justify-evenly items-center mt-18 gap-x-14 max-md:flex max-md:flex-col-reverse max-md:items-center max-md:w-fit"
+        >
+          <!-- hero section: content -->
+          <section
+            class="card mt-32 w-96 max-md:mx-2 max-md:mt-1 max-md:w-72 max-md:h-96 max-md:flex max-md:flex-col max-md:items-start"
+          >
+            <p class="poppins text-6xl font-bold my-6 max-md:w-48 max-md:text-3xl">Start Your Future Education</p>
+            <p class="rubik text-sm font-light">
+              Credibly redefine distinctive total linkage vis-a-vis multifunc
+              data. Phosfluorescently impact goal-oriented strategic
+            </p>
+            <!-- hero section: content button -->
+            <button
+              class="rubik mt-8 text-white bg-yellow-500 rounded-2xl p-4 shadow-lg shadow-yellow-500/50 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-2 focus:ring-yellow-400"
+            >
+              Discover More
+            </button>
+          </section>
+
+          <!-- hero section: pictures -->
+          <!-- hero section: whole pictures wrapper -->
+          
+            <div class="relative mt-10 max-md:mx-4 max-md:mt-20">
+          <!-- hero section: pictures center (sunrise2.svg) |>|>|> -->
+          
+            
+              <img
+                class="relative"
+                src="./images/section1/sunrise2.svg"
+                alt="sunrise image"
+      
+              />
+              <!-- hero section: pictures top left -->
+              <img
+                class="absolute bottom-2/4 right-2/3"
+                src="./images/section1/congratulation2.svg"
+                alt="new email image"
+                width="40%"
+                height="auto"
+              />
+              <!-- hero section: pictures top right -->
+              <img
+                class="absolute bottom-2/4 left-2/3"
+                src="./images/section1/happy-students-number2.svg"
+                alt="student testimonial image"
+                width="40%"
+                height="auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <!--เริ่มเขียนใต้นี้ view -->
 
       <!--เริ่มเขียนใต้นี้ benz -->
