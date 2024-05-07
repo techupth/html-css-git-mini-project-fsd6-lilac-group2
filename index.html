@@ -22,93 +22,106 @@
   <body>
     <div class="h-screen w-screen bg-white">
       <!--เริ่มเขียนใต้นี้ nat -->
-
-      <!-- nav bar -->
-      <!-- nav bar:logo -->
+      <!-- whole section wrapper -->
       <div
-        class="relative flex flex-wrap items-center max-md:flex-col max-md:items-start"
+        class="max-md:flex max-md:flex-col max-md:align-top max-md:w-fit border border-purple-600"
       >
-        <img
-          class="ml-32 mr-24"
-          src="./images/section1/logo3.svg"
-          alt="Eu logo"
-          width="150px"
-          height="150px"
-        />
-        <!-- nav bar:menu list -->
-        <div>
-          <nav class="flex ml-30 max-md:invisible">
-            <ul class="flex">
-              <div class="flex gap-10">
-                <li class="hover:border-yellow-400 hover:border-b-2">Home</li>
-                <li class="hover:border-yellow-400 hover:border-b-2">
-                  Admission
+        <!-- nav bar wrapper-->
+        <div
+          class="relative flex flex-wrap gap-10 items-center max-md:flex max-md:justify-between"
+        >
+          <!-- nav bar: logo -->
+
+          <img
+            class="logo-margin"
+            src="./images/section1/logo3.svg"
+            alt="Eu logo"
+            width="150px"
+            height="150px"
+          />
+          <!-- nav bar: menu list -->
+          <div>
+            <nav class="flex ml-30 max-md:invisible">
+              <ul class="flex items-center">
+                <div class="flex gap-10">
+                  <li class="hover:border-yellow-400 hover:border-b-2">Home</li>
+                  <li class="hover:border-yellow-400 hover:border-b-2">
+                    Admission
+                  </li>
+                  <li class="hover:border-yellow-400 hover:border-b-2">
+                    Academic
+                  </li>
+                </div>
+                <!-- nav bar: contact now button -->
+                <li
+                  class="absolute right-10 text-white bg-black rounded-2xl p-4 cursor-pointer"
+                >
+                  Contact Now
                 </li>
-                <li class="hover:border-yellow-400 hover:border-b-2">
-                  Academic
-                </li>
-              </div>
-              <!-- nav bar:contact button -->
-              <li class="absolute right-10 text-white bg-black rounded-2xl p-4">
-                Contact Now
-              </li>
-              <img
-                class="absolute right-32 max-md:visible md:max-2xl:invisible 2xl:invisible top-10"
-                src="./images/section1/category.png"
-                alt=""
-                width="25px"
-                height="25px"
-              />
-            </ul>
-          </nav>
+                <!-- nav bar: mobile menu button (visible/invisible) -->
+                <img
+                  class="absolute right-10 max-md:visible md:max-2xl:invisible 2xl:invisible"
+                  src="./images/section1/category.png"
+                  alt=""
+                  width="25px"
+                  height="25px"
+                />
+              </ul>
+            </nav>
+          </div>
         </div>
-      </div>
 
-      <!-- hero section: start your future education: content & pictures -->
-      <div
-        class="flex justify-evenly mt-18 p-32 gap-28 max-md:flex max-md:flex-col-reverse max-md:items-center max-md:gap-6"
-      >
-        <!-- hero section: content -->
-        <section class="card bg-white p-4 mt-20 w-1/3 max-md:w-3/4 max-md:mt-1">
-          <p class="text-6xl font-bold my-6">Start Your Future Education</p>
-          <p class="text-sm font-light">
-            Credibly redefine distinctive total linkage vis-a-vis multifunc
-            data. Phosfluorescently impact goal-oriented strategic
-          </p>
-          <!-- hero section: content button -->
-          <button
-            class="mt-8 text-white bg-yellow-500 rounded-2xl p-4 shadow-lg shadow-yellow-500/50"
+        <!-- hero section: start your future education: content & pictures -->
+        <div
+          class="flex justify-evenly mt-18 p-32 gap-28 max-md:flex max-md:flex-col-reverse max-md:items-center max-md:gap-6 border border-red-600"
+        >
+          <!-- hero section: content -->
+          <section
+            class="card bg-white p-4 mt-20 max-md:w-3/4 max-md:mt-1 border border-blue-500"
           >
-            Discover More
-          </button>
-        </section>
+            <p class="text-6xl font-bold my-6">Start Your Future Education</p>
+            <p class="text-sm font-light">
+              Credibly redefine distinctive total linkage vis-a-vis multifunc
+              data. Phosfluorescently impact goal-oriented strategic
+            </p>
+            <!-- hero section: content button -->
+            <button
+              class="mt-8 text-white bg-yellow-500 rounded-2xl p-4 shadow-lg shadow-yellow-500/50"
+            >
+              Discover More
+            </button>
+          </section>
 
-        <!-- hero section: pictures -->
-        <!-- hero section: pictures main -->
-        <div class="relative flex flex-wrap">
-          <img
-            class="relative"
-            src="./images/section1/sun-rise.png"
-            width="100%"
-            height="auto"
-            alt=""
-          />
-          <!-- hero section: pictures top left -->
-          <img
-            class="absolute bottom-2/4 right-2/3"
-            src="./images/section1/congratulation.png"
-            alt=""
-            width="50%"
-            height="auto"
-          />
-          <!-- hero section: pictures top right -->
-          <img
-            class="absolute bottom-2/4 left-2/3"
-            src="./images/section1/happy-students-number.png"
-            alt=""
-            width="50%"
-            height="auto"
-          />
+          <!-- hero section: pictures -->
+          <!-- hero section: whole pictures wrapper -->
+          <div class="border border-green-800"></div>
+          <!-- hero section: pictures center (sunrise2.svg) |>|>|> -->
+          
+            <div class="relative flex flex-wrap">
+              <img
+                class="relative "
+                src="./images/section1/sunrise2.svg"
+                alt=""
+      
+              />
+              <!-- hero section: pictures top left -->
+              <img
+                class="absolute bottom-2/4 right-2/3"
+                src="./images/section1/congratulation2.svg"
+                alt=""
+                width="40%"
+                height="auto"
+              />
+              <!-- hero section: pictures top right -->
+              <img
+                class="absolute bottom-2/4 left-2/3"
+                src="./images/section1/happy-students-number2.svg"
+                alt=""
+                width="40%"
+                height="auto"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <!--เริ่มเขียนใต้นี้ view -->
