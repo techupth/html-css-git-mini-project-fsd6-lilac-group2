@@ -21,7 +21,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
-
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -196,114 +195,154 @@
     </section>
 
     <!--เริ่มเขียนใต้นี้ Benz -->
+
     <div
-      class="w-auto h-auto p-28 bg-[#FFFBF4] flex flex-col items-center content-evenly gap-20"
+      class="w-auto h-auto px-[150px] py-[120px] bg-[#FFFBF4] flex flex-col items-center content-center"
     >
-      <!--Header-->
-      <header class="text-[40px] leading-[58px] poppins text-center font-bold">
-        We Have Most of <br />
-        Popular Department
-      </header>
-
-      <!--3 Blogs content-->
-      <div class="flex flex-row max-md:flex-col gap-6">
-        <!--todo 1st Blog-->
-        <div class="bg-white rounded-[20px] p-10 flex flex-col gap-4">
-          <!--// Image part-->
-          <div class="w-[393px] h-[280px] rounded-t-[20px] bg-[#C4C4C4]">
-            <!--? for image-->
-          </div>
-
-          <!--// Text Part-->
-          <div class="flex flex-col gap-2">
-            <p class="text-[24px] leading-[34px] poppins font-bold">
-              Artificial Intelligence
-            </p>
-            <p class="text-[18px] leading-[32px] Rubik">
-              Assertively parallel task synergistic
-              <br />
-              deliverables after high-quality.
-            </p>
-          </div>
-
-          <!--// Learn More part-->
-          <div class="pt-2 pb-4 flex gap-2">
-            <p
-              class="text-[#FFA502] text-[16px] leading-[26px] Rebik font-medium"
-            >
-              Learn More
-            </p>
-            <i class="material-icons text-[#FFA502]">arrow_forward</i>
-          </div>
-        </div>
-
-        <!--todo 2nd Blog-->
-        <div class="bg-white rounded-[20px] p-10 flex flex-col gap-4">
-          <!--// Image part-->
-          <div class="w-[393px] h-[280px] rounded-t-[20px] bg-[#C4C4C4]">
-            <!--? for image-->
-          </div>
-
-          <!--// Text Part-->
-          <div class="flex flex-col gap-2">
-            <p class="text-[24px] leading-[34px] poppins font-bold">
-              Civil Engineering
-            </p>
-            <p class="text-[18px] leading-[32px] Rubik">
-              Assertively parallel task synergistic
-              <br />
-              deliverables after high-quality.
-            </p>
-          </div>
-
-          <!--// Learn More part-->
-          <div class="pt-2 pb-4 flex gap-2">
-            <p
-              class="text-[#FFA502] text-[16px] leading-[26px] Rebik font-medium"
-            >
-              Learn More
-            </p>
-            <i class="material-icons text-[#FFA502]">arrow_forward</i>
-          </div>
-        </div>
-
-        <!--todo 3rd Blog-->
-        <div class="bg-white rounded-[20px] p-10 flex flex-col gap-4">
-          <!--// Image part-->
-          <div class="w-[393px] h-[280px] rounded-t-[20px] bg-[#C4C4C4]">
-            <!--? for image-->
-          </div>
-
-          <!--// Text Part-->
-          <div class="flex flex-col gap-2">
-            <p class="text-[24px] leading-[34px] poppins font-bold">
-              Business Studies
-            </p>
-            <p class="text-[18px] leading-[32px] Rubik">
-              Assertively parallel task synergistic
-              <br />
-              deliverables after high-quality.
-            </p>
-          </div>
-
-          <!--// Learn More part-->
-          <div class="pt-2 pb-4 flex gap-2">
-            <p
-              class="text-[#FFA502] text-[16px] leading-[26px] Rebik font-medium"
-            >
-              Learn More
-            </p>
-            <i class="material-icons text-[#FFA502]">arrow_forward</i>
-          </div>
-        </div>
-      </div>
-
-      <!--Button-->
-      <button
-        class="w-[218px] h-[64px] bg-[#FFA502] text-white text-[16px] leading-[26px] font-medium rounded-[15px] Rubik shadow-[5px_10px_30px_0px_rgba(255,165,2,0.3)]"
+      <div
+        class="w-auto h-auto flex flex-col items-center content-evenly gap-10 max-md:w-[355px]"
       >
-        View All Department
-      </button>
+        <!--Header-->
+        <header
+          class="text-[40px] leading-[58px] poppins text-center font-bold max-md:text-[27px] max-md:leading-[34px] max-md:text-center"
+        >
+          We Have Most of <br />
+          Popular Department
+        </header>
+
+        <!--3 Blogs content-->
+        <div
+          class="flex flex-row items-center content-center max-md:w-[355px] max-md:flex-col gap-6"
+        >
+          <!--todo 1st Blog-->
+          <div
+            class="bg-white rounded-[20px] p-[30px] flex flex-col flex-1 gap-4"
+          >
+            <!--// Image part-->
+            <div
+              class="w-[393px] h-[280px] max-md:w-auto rounded-t-[20px] bg-[#C4C4C4]"
+            >
+              <!--? for image-->
+            </div>
+
+            <!--// Text Part-->
+            <div class="flex flex-col gap-2">
+              <p class="text-[24px] leading-[34px] poppins font-bold">
+                Artificial Intelligence
+              </p>
+              <p class="text-[18px] leading-[32px] Rubik text-[#6F6F76]">
+                Assertively parallel task synergistic
+                <br />
+                deliverables after high-quality.
+              </p>
+            </div>
+
+            <!--// Learn More part-->
+            <div class="pt-2 pb-4 flex gap-5">
+              <p
+                class="text-[#FFA502] text-[16px] leading-[26px] Rebik font-medium"
+              >
+                Learn More
+              </p>
+              <!--<i class="material-icons text-[#FFA502]">arrow_forward</i>-->
+              <div class="w-[24px] h-[24px] pt-2">
+                <img
+                  class=""
+                  src="./image/section3/pointer.png"
+                  alt="pointer"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!--todo 2nd Blog-->
+          <div
+            class="bg-white rounded-[20px] p-[30px] flex flex-col gap-4 flex-1"
+          >
+            <!--// Image part-->
+            <div
+              class="w-[393px] h-[280px] max-md:w-auto rounded-t-[20px] bg-[#C4C4C4]"
+            >
+              <!--? for image-->
+            </div>
+
+            <!--// Text Part-->
+            <div class="flex flex-col gap-2">
+              <p class="text-[24px] leading-[34px] poppins font-bold">
+                Civil Engineering
+              </p>
+              <p class="text-[18px] leading-[32px] Rubik text-[#6F6F76]">
+                Assertively parallel task synergistic
+                <br />
+                deliverables after high-quality.
+              </p>
+            </div>
+
+            <!--// Learn More part-->
+            <div class="pt-2 pb-4 flex gap-5">
+              <p
+                class="text-[#FFA502] text-[16px] leading-[26px] Rebik font-medium"
+              >
+                Learn More
+              </p>
+              <div class="w-[24px] h-[24px] pt-2">
+                <img
+                  class=""
+                  src="./image/section3/pointer.png"
+                  alt="pointer"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!--todo 3rd Blog-->
+          <div
+            class="bg-white rounded-[20px] p-[30px] flex flex-col gap-4 flex-1"
+          >
+            <!--// Image part-->
+            <div
+              class="w-[393px] h-[280px] max-md:w-auto rounded-t-[20px] bg-[#C4C4C4]"
+            >
+              <!--? for image-->
+            </div>
+
+            <!--// Text Part-->
+            <div class="flex flex-col gap-2">
+              <p class="text-[24px] leading-[34px] poppins font-bold">
+                Business Studies
+              </p>
+              <p class="text-[18px] leading-[32px] Rubik text-[#6F6F76]">
+                Assertively parallel task synergistic
+                <br />
+                deliverables after high-quality.
+              </p>
+            </div>
+
+            <!--// Learn More part-->
+            <div class="pt-2 pb-4 flex gap-5">
+              <p
+                class="text-[#FFA502] text-[16px] leading-[26px] Rebik font-medium"
+              >
+                Learn More
+              </p>
+              <div class="w-[24px] h-[24px] pt-2">
+                <img
+                  class=""
+                  src="./image/section3/pointer.png"
+                  alt="pointer"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Button-->
+        <button
+          class="w-[218px] h-[64px] bg-[#FFA502] text-white text-[16px] leading-[26px] font-medium rounded-[15px] Rubik shadow-[5px_10px_30px_0px_rgba(255,165,2,0.3)]"
+        >
+          View All Department
+        </button>
+      </div>
     </div>
 
     <!--เริ่มเขียนใต้นี้ vick -->
